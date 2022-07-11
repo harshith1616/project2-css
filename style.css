@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: url(./background.jpg);
+    background-size: cover;
+}
+
+.card{
+    width: 350px;
+    height: auto;
+    background: #fff;
+    border-radius: 16px;
+    margin: 20px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+.card .card-para h1{
+    margin: 20px 20px;
+}
+
+.card .card-para p{
+    margin: 20px 20px;
+}
+
+.card .card-para .btn{
+    background-color: tomato;
+    color: white;
+    border-radius: 80px;
+    border: none;
+    padding: 12px 30px;
+    margin: 0 20px 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.WhatsApp{
+    background-color: rgb(10, 170, 34);
+    border-radius: 50q;
+    border: none;
+    padding: 10px 50px;
+    margin: 0 20px 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    right: 0;
+}
+
+.discount h3{
+    font-weight: 500;
+    text-align: center;
+    margin: 10px;
+}
+
+.discount{
+    width: 350px;
+    height: auto;
+    background-color:rgb(122, 5, 133) ;
+    color: rgba(89, 245, 17, 0.815);
+    z-index: 1;
+    border: 2px solid rgb(248, 155, 33);
+    border-radius: 16px;
+    margin: 20px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.card-img{
+    position: relative;
+}
+
+.ratings{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ffdad4;
+    color: rgb(219, 93, 71);
+    font-size: 18px;
+    padding: 5px 15px;
+    margin: 10px;
+    border-radius: 50px;
+}
